@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP MVC Project Example!</title>
-    <link rel="stylesheet" href="<?php use classes\Messages;
-
-    echo ROOT_PATH; ?>assets/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/style.css">
 </head>
 <body>

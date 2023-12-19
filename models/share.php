@@ -1,9 +1,4 @@
 <?php
-
-namespace models;
-
-use classes\Messages;
-
 class ShareModel extends Model
 {
     public function Index()
@@ -13,7 +8,7 @@ class ShareModel extends Model
         return $rows;
     }
 
-    public function add()
+    public function add(): void
     {
         $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 

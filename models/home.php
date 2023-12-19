@@ -1,10 +1,7 @@
 <?php
-
-namespace models;
-
 class HomeModel extends Model
 {
-    public function Index()
+    public function Index(): void
     {
         return;
     }

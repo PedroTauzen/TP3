@@ -2,17 +2,17 @@
 
 namespace controllers;
 
-class Users extends Controller
+class Users extends \Controller
 {
     protected function register(): void
     {
-        $viewmodel = new UserModel();
+        $viewmodel = new \UserModel();
         $this->returnView($viewmodel->register(), true);
     }
 
     protected function login(): void
     {
-        $viewmodel = new UserModel();
+        $viewmodel = new \UserModel();
         $this->returnView($viewmodel->login(), true);
     }
 

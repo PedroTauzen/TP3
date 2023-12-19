@@ -2,9 +2,7 @@
 
 namespace controllers;
 
-use models\HomeModel;
-
-class Home extends Controller
+class Home extends \Controller
 {
     protected function Index(): void
     {

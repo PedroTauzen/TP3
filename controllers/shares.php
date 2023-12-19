@@ -2,9 +2,7 @@
 
 namespace controllers;
 
-use models\ShareModel;
-
-class Share extends Controller
+class Share extends \Controller
 {
     protected function Index(): void
     {

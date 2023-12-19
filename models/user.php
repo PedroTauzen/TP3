@@ -1,9 +1,4 @@
 <?php
-
-namespace models;
-
-use classes\Messages;
-
 class UserModel extends Model
 {
     public function register(): void
@@ -28,7 +23,7 @@ class UserModel extends Model
         return;
     }
 
-    public function login()
+    public function login(): void
     {
         $post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
         $password = md5($post['password']);
